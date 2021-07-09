@@ -2,6 +2,7 @@ import numpy as np
 
 
 def town(x):
-    """Funky Town!"""
+    """Funky Town! This is better :))"""
+    
     a = np.arange(x)
-    return a**2
+    return a*2

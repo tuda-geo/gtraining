@@ -44,13 +44,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Install dependencies
+      - name: Install dependencies and test
         shell: bash -l {0}
         run: |
           pip install numpy pytest pytest-flake8
-
-      - name: Test with pytest
-        shell: bash -l {0}
-        run: |
-          python setup.py install
+          pip install .
           pytest --flake8

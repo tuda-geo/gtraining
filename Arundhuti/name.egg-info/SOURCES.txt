@@ -1,0 +1,9 @@
+README.md
+setup.py
+mymod/__init__.py
+mymod/funky.py
+name.egg-info/PKG-INFO
+name.egg-info/SOURCES.txt
+name.egg-info/dependency_links.txt
+name.egg-info/requires.txt
+name.egg-info/top_level.txt

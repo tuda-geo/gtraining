@@ -1,2 +1,3 @@
 # gtraining
-Dummy repo for training purposes - will be removed afterwards.
+Welcome all
+Dummy repo for training purposes - will be removed afterwards
